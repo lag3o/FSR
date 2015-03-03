@@ -38,6 +38,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem "font-awesome-rails"
+gem 'font-awesome-sass', '~> 4.3.0'
 gem 'high_voltage', '~> 2.2.1'
 

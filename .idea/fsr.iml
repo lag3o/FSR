@@ -29,7 +29,7 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.9.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.3.0, RVM: ruby-2.2.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="font-awesome-rails (v4.3.0.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="font-awesome-sass (v4.3.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="high_voltage (v2.2.1, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, RVM: ruby-2.2.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, RVM: ruby-2.2.0) [gem]" level="application" />
