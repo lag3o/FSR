@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html>
+<<!DOCTYPE html>
+<!--if lt IE 8html.no-js.lt-ie8
+-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 <head>
-  <title>Fsr</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <meta charset="utf-8">
+  <!-- if IEmeta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+  -->
+  <title>Fachschaftsrat Wirtschaft der Fachhochschule Münster</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- if lt IE 9
+  script(src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js")
+  script(src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js")
+
+  -->
+  <!-- stylesheets-->
+  <%= stylesheet_link_tag    'application.scss', 'main.css', 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,300,700', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application','bootstrap.min.js', "main.js", "jquery.smooth-scroll.min.js", 'jquery.min.js', 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
 </head>
+
 <body>
+<header class="header navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="row">
+      <div class="navbar-header">
+        <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Slim</a>
+      </div>
+      <div id="navbar-collapse-1" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">Startseite</a></li>
+          <li><a href="#banner">Fachschaft</a></li>
+          <li><a href="#features">Studienanfänger</a></li>
+          <li><a href="#details">Erfahrungsberichte</a></li>
+          <li><a href="#testimonials">Galerie</a></li>
+          <li><a href="#testimonials">Partner</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
 
 <%= yield %>
 
