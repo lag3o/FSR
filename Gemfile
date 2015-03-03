@@ -40,4 +40,5 @@ gem 'spring',        group: :development
 
 gem 'font-awesome-sass', '~> 4.3.0'
 gem 'high_voltage', '~> 2.2.1'
+gem 'bootstrap-sass', '~> 3.3.3'
 
