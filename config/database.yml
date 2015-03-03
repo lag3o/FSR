@@ -15,6 +15,7 @@
 # gem 'pg'
 #
 default: &default
+  adapter: postgresql
   encoding: unicode
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
@@ -22,7 +23,6 @@ default: &default
 
 development:
   <<: *default
-  adapter: sqlite3
   database: fsr_development
 
   # The specified database role being used to connect to postgres.
@@ -81,7 +81,6 @@ test:
 production:
   <<: *default
 
-  adapter: postgresql
   database: fsr_production
-  username: fsr
+  username: myles
   password: <%= ENV['FSR_DATABASE_PASSWORD'] %>
